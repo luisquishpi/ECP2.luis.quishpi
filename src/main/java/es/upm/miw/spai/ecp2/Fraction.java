@@ -65,4 +65,8 @@ public class Fraction {
         return false;
     }
     
+    public boolean isPropia(){
+        return this.numerator < this.denominator;
+    }
+    
 }
