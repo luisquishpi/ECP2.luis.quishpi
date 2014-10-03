@@ -61,12 +61,11 @@ public class Fraction {
     }
 
     public boolean isImpropia() {
-        // TODO Auto-generated method stub
-        return false;
+        return this.numerator > this.denominator;
     }
-    
-    public boolean isPropia(){
+
+    public boolean isPropia() {
         return this.numerator < this.denominator;
     }
-    
+
 }
