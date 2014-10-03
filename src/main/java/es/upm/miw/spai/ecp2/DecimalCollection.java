@@ -8,7 +8,7 @@ public class DecimalCollection {
 
     public DecimalCollection() {
         this.collection = new ArrayList<Double>();
-    } 
+    }
 
     public void add(double value) {
         this.collection.add(value);
@@ -35,7 +35,7 @@ public class DecimalCollection {
         return higher;
     }
 
-    public double average(){
-		return 0;
+    public double average() {
+        return (double) sum() / size();
     }
 }

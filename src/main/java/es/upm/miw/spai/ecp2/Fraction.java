@@ -60,9 +60,20 @@ public class Fraction {
         return (double) numerator / denominator;
     }
 
+<<<<<<< HEAD
 	public Object equivalente() {
 		// TODO Auto-generated method stub
 		return null;
 	}
     
+=======
+    public boolean isImpropia() {
+        return this.numerator > this.denominator;
+    }
+
+    public boolean isPropia() {
+        return this.numerator < this.denominator;
+    }
+
+>>>>>>> refs/remotes/origin/develop
 }
