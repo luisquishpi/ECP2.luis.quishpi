@@ -46,4 +46,10 @@ public class Point {
         return this;
     }
     
+    public Point middle(Point point){
+    	Point pm = new Point();
+    	pm.x = (this.x + point.x)/2;
+        pm.y = (this.y + point.y)/2;
+        return pm;
+    }
 }

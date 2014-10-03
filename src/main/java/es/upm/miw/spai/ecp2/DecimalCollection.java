@@ -35,4 +35,7 @@ public class DecimalCollection {
         return higher;
     }
 
+    public double average(){
+		return 0;
+    }
 }

@@ -42,4 +42,12 @@ public class DecimalCollectionTest {
         assertEquals(9.0, dec.higher(),10e-5);
     }
     
+    @Test
+    public void testAverage(){
+    	this.dec.add(3.0);
+        this.dec.add(2.8);
+        this.dec.add(1.5);
+    	assertEquals(2.43, dec.average(),10e-5);
+	}
+    
 }
