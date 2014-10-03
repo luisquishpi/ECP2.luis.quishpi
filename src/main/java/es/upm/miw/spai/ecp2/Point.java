@@ -41,5 +41,9 @@ public class Point {
     public String toString() {
         return "Point[" + x + "," + y + "]";
     }
+
+    public Point middle(Point point) {
+        return this;
+    }
     
 }
