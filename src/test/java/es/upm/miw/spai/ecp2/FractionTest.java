@@ -38,4 +38,8 @@ public class FractionTest {
         assertEquals(2.50, fra.decimal(), 10e-5);
     }
 
+    @Test
+    public void testEquivalente(){
+    	assertEquals(true , fra.equivalente());
+    }
 }
