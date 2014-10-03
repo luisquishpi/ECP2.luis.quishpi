@@ -39,7 +39,6 @@ public class User {
     }
 
     public String fullNameUpper() {
-        // TODO Auto-generated method stub
-        return null;
+        return this.name.substring(0).toUpperCase();
     }
 }
