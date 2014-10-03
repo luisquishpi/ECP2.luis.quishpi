@@ -60,13 +60,13 @@ public class Fraction {
         return (double) numerator / denominator;
     }
 
-<<<<<<< HEAD
-	public Object equivalente() {
-		// TODO Auto-generated method stub
-		return null;
+
+	public boolean equivalente(Fraction f) {
+		
+		return (this.numerator*f.denominator == this.denominator*f.numerator);
 	}
     
-=======
+
     public boolean isImpropia() {
         return this.numerator > this.denominator;
     }
@@ -75,5 +75,4 @@ public class Fraction {
         return this.numerator < this.denominator;
     }
 
->>>>>>> refs/remotes/origin/develop
 }
