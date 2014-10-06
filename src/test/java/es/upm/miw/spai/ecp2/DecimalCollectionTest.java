@@ -48,6 +48,6 @@ public class DecimalCollectionTest {
         this.dec.add(2.8);
         this.dec.add(1.5);
         
-    	assertEquals(2.43, dec.average(),10e-5);
+    	assertEquals(2.433333333333333, dec.average(),10e-15);
 	}
  }
