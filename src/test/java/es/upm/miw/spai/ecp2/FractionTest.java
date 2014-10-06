@@ -42,7 +42,7 @@ public class FractionTest {
 
     @Test
     public void testEquivalente(){
-    	assertEquals(true , fra.equivalente());
+    	assertEquals(true , fra.equivalente(fra));
     }
 
     public void testIsImpropia() {
